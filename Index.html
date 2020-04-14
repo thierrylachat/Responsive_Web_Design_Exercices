@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="fr">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,92 +17,134 @@
 
     <title>Exercices Responsive Web Design</title>
 
-  </head>
-  <body>
+</head>
+
+<body>
+
 
     <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
-          <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark" href="#Exercice_1">Exercice 1</a>
+            <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark"
+                href="#Exercice_1">Exercice 1</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark" href="#Exercice_2">Exercice 2</a>
+            <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark"
+                href="#Exercice_2">Exercice 2</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark" href="#Exercice_3">Exercice 3</a>
+            <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark"
+                href="#Exercice_3">Exercice 3</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark" href="#Exercice_4">Exercice 4</a>
+            <a class="nav-link active bg-secondary text-uppercase font-weight-bold text-white border border-dark"
+                href="#Exercice_4">Exercice 4</a>
         </li>
-      </ul>
+    </ul>
 
     <!-- Exercice 1 -->
-    <h2 id="Exercice_1">Exercice 1 - Bootstrap 1</h2>
+    <h4 id="Exercice_1">Exercice 1 - Bootstrap 1</h4>
     <div class="container">
         <div class="row">
             <div class="col-4 bg-primary text-white text-center border border-white">
-            BLOC 1
+                BLOC 1
             </div>
             <div class="col-4 bg-primary text-white text-center border border-white">
-            BLOC 2
+                BLOC 2
             </div>
             <div class="col-4 bg-primary text-white text-center border border-white">
-            BLOC 3
+                BLOC 3
             </div>
         </div>
     </div>
-    
+
     <!-- Exercice 2 -->
-    <h2 id="Exercice_2">Exercice 2 - Bootstrap 2</h2>
+    <h4 id="Exercice_2">Exercice 2 - Bootstrap 2</h4>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4 bg-primary text-white text-center border border-white">
-          BLOC 1
+        <div class="row">
+            <div class="col-sm-4 bg-primary text-white text-center border border-white">
+                BLOC 1
+            </div>
+            <div class="col-sm-4 bg-primary text-white text-center border border-white">
+                BLOC 2
+            </div>
+            <div class="col-sm-4 bg-primary text-white text-center border border-white">
+                BLOC 3
+            </div>
+            <div class="col-sm-2 bg-danger text-white text-center border border-white">
+                BLOC 4
+            </div>
+            <div class="col-sm-2 bg-danger text-white text-center border border-white">
+                BLOC 5
+            </div>
+            <div class="col-sm-4 bg-danger text-white text-center border border-white">
+                BLOC 6
+            </div>
+            <div class="col-sm-4 bg-danger text-white text-center border border-white">
+                BLOC 7
+            </div>
         </div>
-        <div class="col-sm-4 bg-primary text-white text-center border border-white">
-          BLOC 2
-        </div>
-        <div class="col-sm-4 bg-primary text-white text-center border border-white">
-          BLOC 3
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-sm-2 bg-danger text-white text-center border border-white">
-          BLOC 4
-        </div>
-        <div class="col-sm-2 bg-danger text-white text-center border border-white">
-          BLOC 5
-        </div>
-        <div class="col-sm-4 bg-danger text-white text-center border border-white">
-          BLOC 6
-        </div>
-        <div class="col-sm-4 bg-danger text-white text-center border border-white">
-          BLOC 7
-        </div>
-      </div>
     </div>
-      
+
     <!-- Exercice 3 -->
-    <h2 id="Exercice_3">Exercice 3 - Bootstrap 3</h2>
-    
+    <h4 id="Exercice_3">Exercice 3 - Bootstrap 3</h4>
+
     <div class="d-flex flex-column align-items-center text-center">
-      <div class="p-2"><h1>Formations by "La Manu"</h1></div>
-      <div class="p-2"><h1><span class="badge badge-info">C#</span> <span class="badge badge-info">.NET</span></h1></div>
+        <div class="p-2">
+            <h1>Formations by "La Manu"</h1>
+        </div>
+        <div class="p-2">
+            <p><span class="badge badge-info">C#</span> <span class="badge badge-info">.NET</span></p>
+        </div>
     </div>
-    
-    <!-- Pourquoi si on rajoute sm à flex-column ou à texte-center les propriétés s'annulent ? -->
-    
+
+    <!-- 2° version -->
+    <div class="bg-light">
+        <h1 class="text-sm-center mb-2">Formations by "La Manu"</h1>
+        <p class="text-center h3 text-danger"><span class="badge badge-info text-danger">C#</span> <span
+                class="badge badge-info">.NET</span></p>
+    </div>
+
+
     <!-- Exercice 4 -->
-    <h2 id="Exercice_4">Exercice 4 - Bootstrap 4</h2>
-    
+    <h4 id="Exercice_4">Exercice 4 - Bootstrap 4</h4>
+
     <div class="card">
         <div class="card-body text-center">
-        <h4 class="card-title font-weight-bold">La Manu Le Havre</h4>
-        <p class="card-text">
-          L'École des métiers du Numérique
-        </p>
-        <a href="#!" class="btn btn-primary">+ d'infos</a>
-      </div>
+            <h4 class="card-title font-weight-bold">La Manu Le Havre</h4>
+            <p class="card-text">
+                L'École des métiers du Numérique.
+            </p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCentered">
+                + d'infos
+            </button>
+        </div>
     </div>
-    
-  </body>
+
+    <!-- Modal -->
+    <div class="modal" id="exampleModalCentered" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenteredLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenteredLabel">La Manu Le Havre</h5>
+                </div>
+                <div class="modal-body bg-primary text-white text-center">
+                    <a class="text-white text-decoration-none"
+                        href="https://lamanu.fr/le-havre">https://lamanu.fr/le-havre</a>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">X Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript Bootstrap Libraries -->
+    <script src="Assets/Libraries/JS/jquery-3.4.1.min.js"></script>
+    <script src="Assets/Libraries/JS/bootstrap.bundle.min.js"></script>
+    <script src="Assets/JS/script.js"></script>
+
+</body>
+
 </html>
